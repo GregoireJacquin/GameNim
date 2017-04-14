@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					B8EB35731E7F273A004023C6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = B6ZR9DLYV5;
 						ProvisioningStyle = Automatic;
 					};
 					B8EB35871E7F273A004023C6 = {
@@ -410,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6ZR9DLYV5;
 				INFOPLIST_FILE = "Jeu de Nim/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.Jeu-de-Nim";
@@ -422,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = B6ZR9DLYV5;
 				INFOPLIST_FILE = "Jeu de Nim/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yourcompany.Jeu-de-Nim";

@@ -31,6 +31,31 @@ class Jeu_de_NimUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        
+        let app = XCUIApplication()
+        let numberNim = app.staticTexts["number-nim-label"]
+        let namePlayer = app.staticTexts["player-label"]
+        
+        let player1name = "Joueur 1"
+        let player2name = "Joueur 2"
+        
+        XCTAssertEqual(numberNim.label, "20")
+        XCTAssertEqual(namePlayer.label, player1name)
+        app.buttons["1"].tap()
+        XCTAssertEqual(numberNim.label, "19")
+        XCTAssertEqual(namePlayer.label, player2name)
+        app.buttons["2"].tap()
+        XCTAssertEqual(numberNim.label, "17")
+        XCTAssertEqual(namePlayer.label, player1name)
+        app.buttons["3"].tap()//14
+        app.buttons["3"].tap()//11
+        app.buttons["3"].tap()//8
+        app.buttons["3"].tap()//5
+        app.buttons["3"].tap()//2
+        app.buttons["1"].tap()//1
+        app.buttons["1"].tap()//0
+        XCTAssertEqual(numberNim.label, "Le \(player2name) a gagné")
     }
     
 }

@@ -16,14 +16,12 @@ class ViewController: UIViewController {
     @IBOutlet weak var ui_Button_2: UIButton!
     @IBOutlet weak var ui_Button_3: UIButton!
     
+    private var _game:Game?
     
-    
-    var currentPlayer = "Joueur 1"
-    
-    var matchCount = 20
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        newGame()
     }
     
     override func didReceiveMemoryWarning() {
@@ -31,25 +29,32 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func newGame() {
+        let p1 = Player(nickname:"Joueur 1")
+        let p2 = Player(nickname:"Joueur 2")
+        _game = Game(firstPlayer: p1, secondPlayer: p2)
+    }
+    
     @IBAction func reduceTheBar(_ sender: UIButton) {
-        matchCount -= sender.tag
-        if currentPlayer == "Joueur 1" {
-            currentPlayer = "Joueur 2"
-        } else {
-            currentPlayer = "Joueur 1"
+        if let gameInProgress = _game {
+            gameInProgress.pickMatchesCount(matchesCount: sender.tag)
         }
         updateLabel()
     }
+    
     func updateLabel() {
-        ui_LabelPlayer.text = currentPlayer
-        if matchCount > 0 {
-            ui_LabelNumBar.text = "Il reste \(matchCount) allumettes"
-        } else {
-            ui_LabelNumBar.text = "Le \(currentPlayer) a gagné"
+        if let game = _game {
+            ui_LabelPlayer.text = game.currentPlayer().nickname()
+            if let winner = game.winner {
+                ui_LabelNumBar.text = "Le \(winner.nickname()) a gagné"
+            } else {
+                ui_LabelNumBar.text = "Il reste \(game.matchesCount()) allumettes"
+            }
+            ui_Button_1.isHidden = game.matchesCount() < 1
+            ui_Button_2.isHidden = game.matchesCount() < 2
+            ui_Button_3.isHidden = game.matchesCount() < 3
         }
-        ui_Button_1.isHidden = matchCount < 1
-        ui_Button_2.isHidden = matchCount < 2
-        ui_Button_3.isHidden = matchCount < 3
         
     }
 }

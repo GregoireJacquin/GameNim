@@ -14,6 +14,8 @@
 		B8EB35821E7F273A004023C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8EB35801E7F273A004023C6 /* LaunchScreen.storyboard */; };
 		B8EB358D1E7F273A004023C6 /* Jeu_de_NimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB358C1E7F273A004023C6 /* Jeu_de_NimTests.swift */; };
 		B8EB35981E7F273B004023C6 /* Jeu_de_NimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB35971E7F273B004023C6 /* Jeu_de_NimUITests.swift */; };
+		B8EFDCF11EA3FE9E002770DF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFDCF01EA3FE9E002770DF /* Player.swift */; };
+		B8EFDCF31EA40088002770DF /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EFDCF21EA40088002770DF /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		B8EB35931E7F273B004023C6 /* Jeu de NimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jeu de NimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EB35971E7F273B004023C6 /* Jeu_de_NimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jeu_de_NimUITests.swift; sourceTree = "<group>"; };
 		B8EB35991E7F273B004023C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8EFDCF01EA3FE9E002770DF /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B8EFDCF21EA40088002770DF /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		B8EB35761E7F273A004023C6 /* Jeu de Nim */ = {
 			isa = PBXGroup;
 			children = (
+				B8EFDCEF1EA3FE79002770DF /* Model */,
 				B8EB35771E7F273A004023C6 /* AppDelegate.swift */,
 				B8EB35791E7F273A004023C6 /* ViewController.swift */,
 				B8EB357B1E7F273A004023C6 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				B8EB35991E7F273B004023C6 /* Info.plist */,
 			);
 			path = "Jeu de NimUITests";
+			sourceTree = "<group>";
+		};
+		B8EFDCEF1EA3FE79002770DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8EFDCF01EA3FE9E002770DF /* Player.swift */,
+				B8EFDCF21EA40088002770DF /* Game.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +275,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8EB357A1E7F273A004023C6 /* ViewController.swift in Sources */,
+				B8EFDCF11EA3FE9E002770DF /* Player.swift in Sources */,
 				B8EB35781E7F273A004023C6 /* AppDelegate.swift in Sources */,
+				B8EFDCF31EA40088002770DF /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +522,7 @@
 				B8EB359E1E7F273B004023C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8EB359F1E7F273B004023C6 /* Build configuration list for PBXNativeTarget "Jeu de NimTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +531,7 @@
 				B8EB35A11E7F273B004023C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B8EB35A21E7F273B004023C6 /* Build configuration list for PBXNativeTarget "Jeu de NimUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +540,7 @@
 				B8EB35A41E7F273B004023C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

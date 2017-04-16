@@ -40,20 +40,23 @@ class Jeu_de_NimUITests: XCTestCase {
         let player1name = "Joueur 1"
         let player2name = "Joueur 2"
         
-        XCTAssertEqual(numberNim.label, "20")
+        XCTAssertEqual(numberNim.label, "Il reste 20 allumettes")
         XCTAssertEqual(namePlayer.label, player1name)
         app.buttons["1"].tap()
-        XCTAssertEqual(numberNim.label, "19")
+        XCTAssertEqual(numberNim.label, "Il reste 19 allumettes")
         XCTAssertEqual(namePlayer.label, player2name)
         app.buttons["2"].tap()
-        XCTAssertEqual(numberNim.label, "17")
+        XCTAssertEqual(numberNim.label, "Il reste 17 allumettes")
         XCTAssertEqual(namePlayer.label, player1name)
         app.buttons["3"].tap()//14
         app.buttons["3"].tap()//11
         app.buttons["3"].tap()//8
+        XCTAssert(app.buttons["3"].exists)
         app.buttons["3"].tap()//5
         app.buttons["3"].tap()//2
+        XCTAssertFalse(app.buttons["3"].exists)
         app.buttons["1"].tap()//1
+        XCTAssertFalse(app.buttons["3"].exists)
         app.buttons["1"].tap()//0
         XCTAssertEqual(numberNim.label, "Le \(player2name) a gagné")
     }

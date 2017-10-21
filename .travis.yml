@@ -1,28 +1,6 @@
-language: objective-c
+language: swift # or objective-c
 osx_image: xcode9
-branches:
-  only:
-    - master
-env:
-  global:
-  - LC_CTYPE=en_US.UTF-8
-  - LANG=en_US.UTF-8
-  - WORKSPACE=JeudeNim.xcworkspace
-  - IOS_FRAMEWORK_SCHEME="Jeu de Nim"
-  #- EXAMPLE_SCHEME="Example"
-  matrix:
-
-    - DESTINATION="OS=11.0,name=iPhone 6"           SCHEME="$IOS_FRAMEWORK_SCHEME"    RUN_TESTS="NO" BUILD_EXAMPLE="YES"  CODE_COV="YES"
-    #- DESTINATION="OS=11.0,name=iPad Pro (9.7-inch)"     SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES" BUILD_EXAMPLE="YES"  CODE_COV="NO"
-
 script:
-  - set -o pipefail
-  - xcodebuild -version
-  - xcodebuild -showsdks
-
-  # Build Framework in Debug and Run Tests if specified
-  script:
-  - xcodebuild -scheme "$SCHEME" -workspace "$WORKSPACE" -sdk iphonesimulator -destination "$DESTINATION" build test
-
+  - xcodebuild -scheme JeudeNim -workspace JeudeNim.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE,OS=11' build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)

@@ -1,6 +1,8 @@
-language: swift # or objective-c
+language: swift
 osx_image: xcode9
 script:
-  - xcodebuild -scheme Jeu de Nim -workspace Jeu de Nim.xcodeproj -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE,OS=11' build test
+  - xcodebuild -version
+  - xcodebuild -project Jeu de Nim.xcodeproj -scheme iOSTests -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6" -configuration Release ONLY_ACTIVE_ARCH=YES -enableCodeCoverage YES test
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -cF ios
+  

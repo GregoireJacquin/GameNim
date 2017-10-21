@@ -1,6 +1,6 @@
 language: swift # or objective-c
 osx_image: xcode9
 script:
-  - xctool -project Jeu de Nim.xcodeproj -scheme Jeu de NimTests build test -sdk iphonesimulator GCC_INSTRUMENT_PROGRAM_FLOW_ARCS=YES GCC_GENERATE_TEST_COVERAGE_FILES=YES
+  - xcodebuild -scheme Jeu de Nim -workspace Jeu de Nim.xcodeproj -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE,OS=11' build test
 after_success:
   - bash <(curl -s https://codecov.io/bash)

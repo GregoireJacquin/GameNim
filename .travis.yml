@@ -1,21 +1,29 @@
-language: swift # or objective-c
+language: swift
 osx_image: xcode9
+branches:
+  only:
+    - master
 env:
   global:
   - WORKSPACE=JeudeNim.xcworkspace
   - IOS_FRAMEWORK_SCHEME="Jeu de Nim"
+
   matrix:
-  - DESTINATION="OS=11.0,name=iPhone SE"     SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"   BUILD_EXAMPLE="NO"  CODE_COV="YES"
+
+    - DESTINATION="OS=9.0,name=iPhone SE"           SCHEME="$IOS_FRAMEWORK_SCHEME"    RUN_TESTS="YES"   BUILD_EXAMPLE="NO"  CODE_COV="YES"
+    #- DESTINATION="OS=11.0,name=iPad Pro (9.7-inch)"     SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES" BUILD_EXAMPLE="YES"  CODE_COV="NO"
 
 script:
-  #- xcodebuild -scheme Jeu de Nim -workspace JeudeNim.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE,OS=11' build test
+  - set -o pipefail
+  - xcodebuild -version
+  - xcodebuild -showsdks
 
-# Build Framework in Debug and Run Tests if specified
+  # Build Framework in Debug and Run Tests if specified
   - if [ $RUN_TESTS == "YES" ]; then
       travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test | xcpretty;
     else
       travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO build | xcpretty;
     fi
-
+    
 after_success:
   - bash <(curl -s https://codecov.io/bash)

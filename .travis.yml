@@ -9,16 +9,13 @@ env:
   - LANG=en_US.UTF-8
   - WORKSPACE=JeudeNim.xcworkspace
   - IOS_FRAMEWORK_SCHEME="Jeu de Nim"
-  - EXAMPLE_SCHEME="Example"
+  #- EXAMPLE_SCHEME="Example"
   matrix:
 
     - DESTINATION="OS=11.0,name=iPhone 6"           SCHEME="$IOS_FRAMEWORK_SCHEME"    RUN_TESTS="NO" BUILD_EXAMPLE="YES"  CODE_COV="YES"
     #- DESTINATION="OS=11.0,name=iPad Pro (9.7-inch)"     SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES" BUILD_EXAMPLE="YES"  CODE_COV="NO"
 
 script:
-  - set -o pipefail
-  - xcodebuild -version
-  - xcodebuild -showsdks
 
   # Build Framework in Debug and Run Tests if specified
   script:

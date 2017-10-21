@@ -222,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B8EB356F1E7F273A004023C6 /* Build configuration list for PBXProject "Jeu de Nim" */;
+			buildConfigurationList = B8EB356F1E7F273A004023C6 /* Build configuration list for PBXProject "JeudeNim" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -506,7 +506,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B8EB356F1E7F273A004023C6 /* Build configuration list for PBXProject "Jeu de Nim" */ = {
+		B8EB356F1E7F273A004023C6 /* Build configuration list for PBXProject "JeudeNim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B8EB359A1E7F273B004023C6 /* Debug */,

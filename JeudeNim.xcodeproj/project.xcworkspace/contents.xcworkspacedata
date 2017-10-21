@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Jeu de Nim.xcodeproj">
+      location = "self:/Users/gregoirejacquin/Documents/Xcode /GameNim/JeudeNim.xcodeproj">
    </FileRef>
 </Workspace>

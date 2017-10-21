@@ -1,6 +1,18 @@
 language: swift # or objective-c
 osx_image: xcode9
+env:
+  global:
+  - WORKSPACE=Jeu de Nim.xcworkspace
+  - IOS_FRAMEWORK_SCHEME="Jeu de Nim"
+  matrix:
+  - DESTINATION="OS=11.0,name=iPhone SE"     SCHEME="$IOS_FRAMEWORK_SCHEME"     RUN_TESTS="YES"   BUILD_EXAMPLE="NO"  CODE_COV="YES"
+
 script:
-  - xcodebuild -scheme JeudeNim -workspace JeudeNim.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE,OS=11' build test
+  #- xcodebuild -scheme Jeu de Nim -workspace JeudeNim.xcworkspace -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone SE,OS=11' build test
+
+# Build Framework in Debug and Run Tests if specified
+  - if [ $RUN_TESTS == "YES" ]; then
+      travis_retry xcodebuild -workspace "$WORKSPACE" -scheme "$SCHEME" -destination "$DESTINATION" -configuration Debug ONLY_ACTIVE_ARCH=NO ENABLE_TESTABILITY=YES test
+
 after_success:
   - bash <(curl -s https://codecov.io/bash)

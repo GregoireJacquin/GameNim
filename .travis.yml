@@ -21,7 +21,7 @@ script:
   - xcodebuild -showsdks
   
   # Build Framework in Debug and Run Tests if specified
-  - xcodebuild -project "$WORKSPACE" -scheme "$SHEME" -sdk iphonesimulator -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=YES -enableCodeCoverage YES test
+  - xcodebuild -project "$WORKSPACE" -scheme "$SCHEME" -sdk iphonesimulator -destination "$DESTINATION" -configuration Release ONLY_ACTIVE_ARCH=YES -enableCodeCoverage YES test
 
 after_success:
   - bash <(curl -s https://codecov.io/bash) -cF ios

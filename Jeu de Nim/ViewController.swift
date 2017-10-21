@@ -12,12 +12,16 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var ui_LabelPlayer: UILabel!
     @IBOutlet weak var ui_LabelNumBar: UILabel!
-    var currentPlayer = "Joueur 1"
+    @IBOutlet weak var ui_Button_1: UIButton!
+    @IBOutlet weak var ui_Button_2: UIButton!
+    @IBOutlet weak var ui_Button_3: UIButton!
     
-    var matchCount = 20
+    private var _game:Game?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        newGame()
     }
     
     override func didReceiveMemoryWarning() {
@@ -25,23 +29,32 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    
+    func newGame() {
+        let p1 = Player(nickname:"Joueur 1")
+        let p2 = Player(nickname:"Joueur 2")
+        _game = Game(firstPlayer: p1, secondPlayer: p2)
+    }
+    
     @IBAction func reduceTheBar(_ sender: UIButton) {
-        matchCount -= sender.tag
-        if currentPlayer == "Joueur 1" {
-            currentPlayer = "Joueur 2"
-        } else {
-            currentPlayer = "Joueur 1"
+        if let gameInProgress = _game {
+            gameInProgress.pickMatchesCount(matchesCount: sender.tag)
         }
         updateLabel()
     }
+    
     func updateLabel() {
-        ui_LabelPlayer.text = currentPlayer
-        if matchCount > 0 {
-            ui_LabelNumBar.text = "\(matchCount)"
-        } else {
-            ui_LabelNumBar.text = "Le \(currentPlayer) a gagné"
+        if let game = _game {
+            ui_LabelPlayer.text = game.currentPlayer().nickname()
+            if let winner = game.winner {
+                ui_LabelNumBar.text = "Le \(winner.nickname()) a gagné"
+            } else {
+                ui_LabelNumBar.text = "Il reste \(game.matchesCount()) allumettes"
+            }
+            ui_Button_1.isHidden = game.matchesCount() < 1
+            ui_Button_2.isHidden = game.matchesCount() < 2
+            ui_Button_3.isHidden = game.matchesCount() < 3
         }
-        
         
     }
 }

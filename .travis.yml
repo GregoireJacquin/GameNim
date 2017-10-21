@@ -1,0 +1,4 @@
+language: objective-c  
+osx_image: xcode8 
+xcode_project: Jeu De Nim.xcodeproj 
+xcode_sdk: iphonesimulator11.1

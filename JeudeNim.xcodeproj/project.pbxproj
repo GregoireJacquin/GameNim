@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31D57667C626C3744AD10865 /* Pods_Jeu_de_NimTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D10914E518D79A1AAE2CB6F6 /* Pods_Jeu_de_NimTests.framework */; };
+		51E235B724DD7753C296F842 /* Pods_Jeu_de_Nim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F0D0E2C6E08CA9B674A56C /* Pods_Jeu_de_Nim.framework */; };
+		9C90A0D2474D21AFF5BA4B4E /* Pods_Jeu_de_NimUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AACE2F525B62871AC66647 /* Pods_Jeu_de_NimUITests.framework */; };
 		B8EB35781E7F273A004023C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB35771E7F273A004023C6 /* AppDelegate.swift */; };
 		B8EB357A1E7F273A004023C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8EB35791E7F273A004023C6 /* ViewController.swift */; };
 		B8EB357D1E7F273A004023C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8EB357B1E7F273A004023C6 /* Main.storyboard */; };
@@ -36,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00AACE2F525B62871AC66647 /* Pods_Jeu_de_NimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jeu_de_NimUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FD62EF4A59A246F3720B598 /* Pods-Jeu de NimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jeu de NimTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jeu de NimTests/Pods-Jeu de NimTests.release.xcconfig"; sourceTree = "<group>"; };
+		418DBFABD87CDA1E2D2DAEF2 /* Pods-Jeu de NimUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jeu de NimUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jeu de NimUITests/Pods-Jeu de NimUITests.release.xcconfig"; sourceTree = "<group>"; };
+		572419F8336FB0677DAA0A35 /* Pods-Jeu de Nim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jeu de Nim.release.xcconfig"; path = "Pods/Target Support Files/Pods-Jeu de Nim/Pods-Jeu de Nim.release.xcconfig"; sourceTree = "<group>"; };
+		58A448C945D5A18BB528872B /* Pods-Jeu de Nim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jeu de Nim.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jeu de Nim/Pods-Jeu de Nim.debug.xcconfig"; sourceTree = "<group>"; };
+		7E305C0E41DCAF0A42082D93 /* Pods-Jeu de NimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jeu de NimTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jeu de NimTests/Pods-Jeu de NimTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B8EB35741E7F273A004023C6 /* Jeu de Nim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jeu de Nim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8EB35771E7F273A004023C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8EB35791E7F273A004023C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		B8EB35991E7F273B004023C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8EFDCF01EA3FE9E002770DF /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B8EFDCF21EA40088002770DF /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		C5DE18B6897A51FCEBE136FF /* Pods-Jeu de NimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Jeu de NimUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Jeu de NimUITests/Pods-Jeu de NimUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D0F0D0E2C6E08CA9B674A56C /* Pods_Jeu_de_Nim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jeu_de_Nim.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D10914E518D79A1AAE2CB6F6 /* Pods_Jeu_de_NimTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Jeu_de_NimTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51E235B724DD7753C296F842 /* Pods_Jeu_de_Nim.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31D57667C626C3744AD10865 /* Pods_Jeu_de_NimTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C90A0D2474D21AFF5BA4B4E /* Pods_Jeu_de_NimUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E5D850C5E33F3A8ED1B1750 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58A448C945D5A18BB528872B /* Pods-Jeu de Nim.debug.xcconfig */,
+				572419F8336FB0677DAA0A35 /* Pods-Jeu de Nim.release.xcconfig */,
+				7E305C0E41DCAF0A42082D93 /* Pods-Jeu de NimTests.debug.xcconfig */,
+				2FD62EF4A59A246F3720B598 /* Pods-Jeu de NimTests.release.xcconfig */,
+				C5DE18B6897A51FCEBE136FF /* Pods-Jeu de NimUITests.debug.xcconfig */,
+				418DBFABD87CDA1E2D2DAEF2 /* Pods-Jeu de NimUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A754C6DEC8AE31FC3D7357CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F0D0E2C6E08CA9B674A56C /* Pods_Jeu_de_Nim.framework */,
+				D10914E518D79A1AAE2CB6F6 /* Pods_Jeu_de_NimTests.framework */,
+				00AACE2F525B62871AC66647 /* Pods_Jeu_de_NimUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B8EB356B1E7F273A004023C6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				B8EB358B1E7F273A004023C6 /* Jeu de NimTests */,
 				B8EB35961E7F273B004023C6 /* Jeu de NimUITests */,
 				B8EB35751E7F273A004023C6 /* Products */,
+				6E5D850C5E33F3A8ED1B1750 /* Pods */,
+				A754C6DEC8AE31FC3D7357CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8EB359C1E7F273B004023C6 /* Build configuration list for PBXNativeTarget "Jeu de Nim" */;
 			buildPhases = (
+				49EFDE5C0BDEAB4A189D885C /* [CP] Check Pods Manifest.lock */,
 				B8EB35701E7F273A004023C6 /* Sources */,
 				B8EB35711E7F273A004023C6 /* Frameworks */,
 				B8EB35721E7F273A004023C6 /* Resources */,
+				62E33572BDCF42F386F4F550 /* [CP] Embed Pods Frameworks */,
+				49222133396B50FF9484BB42 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8EB359F1E7F273B004023C6 /* Build configuration list for PBXNativeTarget "Jeu de NimTests" */;
 			buildPhases = (
+				B183908433EC7DF4C01E9AE1 /* [CP] Check Pods Manifest.lock */,
 				B8EB35841E7F273A004023C6 /* Sources */,
 				B8EB35851E7F273A004023C6 /* Frameworks */,
 				B8EB35861E7F273A004023C6 /* Resources */,
+				D24A0B5446838758C220FC7C /* [CP] Embed Pods Frameworks */,
+				75B6D81ECF23363C866D31C1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +227,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8EB35A21E7F273B004023C6 /* Build configuration list for PBXNativeTarget "Jeu de NimUITests" */;
 			buildPhases = (
+				05481B3526149D175CF5F098 /* [CP] Check Pods Manifest.lock */,
 				B8EB358F1E7F273B004023C6 /* Sources */,
 				B8EB35901E7F273B004023C6 /* Frameworks */,
 				B8EB35911E7F273B004023C6 /* Resources */,
+				F0624E3F052EFE0F682A1427 /* [CP] Embed Pods Frameworks */,
+				576B32351E566E41FFA4F977 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +317,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05481B3526149D175CF5F098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jeu de NimUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49222133396B50FF9484BB42 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jeu de Nim/Pods-Jeu de Nim-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49EFDE5C0BDEAB4A189D885C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jeu de Nim-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		576B32351E566E41FFA4F977 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jeu de NimUITests/Pods-Jeu de NimUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62E33572BDCF42F386F4F550 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jeu de Nim/Pods-Jeu de Nim-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75B6D81ECF23363C866D31C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jeu de NimTests/Pods-Jeu de NimTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B183908433EC7DF4C01E9AE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Jeu de NimTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D24A0B5446838758C220FC7C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jeu de NimTests/Pods-Jeu de NimTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0624E3F052EFE0F682A1427 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Jeu de NimUITests/Pods-Jeu de NimUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B8EB35701E7F273A004023C6 /* Sources */ = {
@@ -425,6 +621,7 @@
 		};
 		B8EB359D1E7F273B004023C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A448C945D5A18BB528872B /* Pods-Jeu de Nim.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B6ZR9DLYV5;
@@ -438,6 +635,7 @@
 		};
 		B8EB359E1E7F273B004023C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572419F8336FB0677DAA0A35 /* Pods-Jeu de Nim.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B6ZR9DLYV5;
@@ -451,6 +649,7 @@
 		};
 		B8EB35A01E7F273B004023C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E305C0E41DCAF0A42082D93 /* Pods-Jeu de NimTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -465,6 +664,7 @@
 		};
 		B8EB35A11E7F273B004023C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FD62EF4A59A246F3720B598 /* Pods-Jeu de NimTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +679,7 @@
 		};
 		B8EB35A31E7F273B004023C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5DE18B6897A51FCEBE136FF /* Pods-Jeu de NimUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Jeu de NimUITests/Info.plist";
@@ -492,6 +693,7 @@
 		};
 		B8EB35A41E7F273B004023C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 418DBFABD87CDA1E2D2DAEF2 /* Pods-Jeu de NimUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Jeu de NimUITests/Info.plist";

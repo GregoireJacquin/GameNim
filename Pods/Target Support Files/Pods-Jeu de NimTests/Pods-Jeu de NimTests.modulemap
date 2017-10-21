@@ -1,0 +1,6 @@
+framework module Pods_Jeu_de_NimTests {
+  umbrella header "Pods-Jeu de NimTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

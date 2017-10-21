@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		193331AE7332CFAB8CA823765F12B4B4 /* Pods-Jeu de NimUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C12AD02CD8A28E6E08063FE2385D1702 /* Pods-Jeu de NimUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28170F1BC62B9968C08FD3A00DD8FF14 /* Pods-Jeu de NimUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7FE27B8902868C307A8B3541ECE957 /* Pods-Jeu de NimUITests-dummy.m */; };
+		52DB0EFC2AE70294CDB826B980C44338 /* Pods-Jeu de Nim-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F73177079F20B8B09E9A3034CEC86D /* Pods-Jeu de Nim-dummy.m */; };
+		54C706189674FDABB82F04FA398C8BCC /* Pods-Jeu de NimTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40350C6256FC6D9E6DD4CBB2EBC899E1 /* Pods-Jeu de NimTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		554310C24F1461C704ED1A16EA368272 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		63975BF55800E7CDDF7964651B8A58F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		AA98192106F00B16F3A55CD0821BB860 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F33C21DA24C017220ADD5285AC70C407 /* Pods-Jeu de NimTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32447B48551BCC6C7635EB27462A99B0 /* Pods-Jeu de NimTests-dummy.m */; };
+		F7DA25E944E97CC0D017610A2C803FD6 /* Pods-Jeu de Nim-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 85D05BD1BA1044C7B972FB2C7FBBF5D9 /* Pods-Jeu de Nim-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		026EEA82174758A3607EBF598858D1CD /* Pods-Jeu de Nim-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jeu de Nim-acknowledgements.plist"; sourceTree = "<group>"; };
+		095B9DF0144C44AB476FE351F569F774 /* Pods-Jeu de Nim-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jeu de Nim-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1D71DA3393AD9A75880DD281B87F1532 /* Pods-Jeu de Nim-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jeu de Nim-resources.sh"; sourceTree = "<group>"; };
+		2215B62A1EF901CB6D80D29CD5A8071B /* Pods_Jeu_de_NimUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Jeu_de_NimUITests.framework; path = "Pods-Jeu de NimUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24DC5298CA9DF43E830E345358CBE492 /* Pods-Jeu de NimUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jeu de NimUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		32447B48551BCC6C7635EB27462A99B0 /* Pods-Jeu de NimTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jeu de NimTests-dummy.m"; sourceTree = "<group>"; };
+		3A1841F7199D11BF5496B10616F94F43 /* Pods-Jeu de NimUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jeu de NimUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CC5D30353A7435C14E4BD8B74D0DC3D /* Pods_Jeu_de_NimTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Jeu_de_NimTests.framework; path = "Pods-Jeu de NimTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40350C6256FC6D9E6DD4CBB2EBC899E1 /* Pods-Jeu de NimTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jeu de NimTests-umbrella.h"; sourceTree = "<group>"; };
+		479BAB3A30F5328CB169F04E091B8925 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5810B290A9252C462B21940068A65F3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A5398AD5750E6BC7F0C10B63BF971EE /* Pods-Jeu de Nim.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jeu de Nim.release.xcconfig"; sourceTree = "<group>"; };
+		62417A702C113F1D135E53A3A0E75747 /* Pods-Jeu de Nim.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jeu de Nim.debug.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		660C830F176578E2940571645A01DF41 /* Pods-Jeu de NimUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jeu de NimUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7CE581809C19825362BF5DA23A5A2C81 /* Pods-Jeu de Nim.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Jeu de Nim.modulemap"; sourceTree = "<group>"; };
+		85D05BD1BA1044C7B972FB2C7FBBF5D9 /* Pods-Jeu de Nim-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jeu de Nim-umbrella.h"; sourceTree = "<group>"; };
+		898D68C9658C92E54C758CA122061343 /* Pods-Jeu de NimTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jeu de NimTests.release.xcconfig"; sourceTree = "<group>"; };
+		93A393C0A0D1FCB4140FC32994A13B0E /* Pods_Jeu_de_Nim.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Jeu_de_Nim.framework; path = "Pods-Jeu de Nim.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A7FE27B8902868C307A8B3541ECE957 /* Pods-Jeu de NimUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jeu de NimUITests-dummy.m"; sourceTree = "<group>"; };
+		A08561B7CFB8327141D2B9C115EC5B76 /* Pods-Jeu de NimTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Jeu de NimTests.modulemap"; sourceTree = "<group>"; };
+		A0F73177079F20B8B09E9A3034CEC86D /* Pods-Jeu de Nim-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Jeu de Nim-dummy.m"; sourceTree = "<group>"; };
+		A861DF18D654A2418216ED8AB84AB618 /* Pods-Jeu de NimTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jeu de NimTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2634923E6BDF2CBC0E157C0A9BFE253 /* Pods-Jeu de NimUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Jeu de NimUITests.modulemap"; sourceTree = "<group>"; };
+		B97D1FDA692C40BCCAAA77F7C6BA7A15 /* Pods-Jeu de NimUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jeu de NimUITests-resources.sh"; sourceTree = "<group>"; };
+		BA91F5D4024547900AF1612777FBF326 /* Pods-Jeu de Nim-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jeu de Nim-frameworks.sh"; sourceTree = "<group>"; };
+		C12AD02CD8A28E6E08063FE2385D1702 /* Pods-Jeu de NimUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Jeu de NimUITests-umbrella.h"; sourceTree = "<group>"; };
+		C57BF11E5AE48712C0DACE6F0BDEC4B2 /* Pods-Jeu de NimTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Jeu de NimTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6B73E9313DA433D7168DFDAB91E1717 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB18628155FB9873E8D7CC2434BA125A /* Pods-Jeu de NimUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jeu de NimUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E16EECC5C4F8B6DD6226316E3347028F /* Pods-Jeu de NimTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jeu de NimTests-resources.sh"; sourceTree = "<group>"; };
+		F03207542C482A9D5212A390F375F434 /* Pods-Jeu de NimTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Jeu de NimTests-frameworks.sh"; sourceTree = "<group>"; };
+		F3829A39C49A1F6A905320AD2A810772 /* Pods-Jeu de NimTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Jeu de NimTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7146F44E8915958285C4E088F39490C /* Pods-Jeu de NimUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Jeu de NimUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ABDDC317945706335A38C15914405F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63975BF55800E7CDDF7964651B8A58F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FFFA075BA0D1ACE3565ADF6548CE99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA98192106F00B16F3A55CD0821BB860 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A76D3F3D4F424BEC66F6B3F5E24D51A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				554310C24F1461C704ED1A16EA368272 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A82AADF7458965ED8397E5377B9D2A8 /* Pods-Jeu de Nim */ = {
+			isa = PBXGroup;
+			children = (
+				479BAB3A30F5328CB169F04E091B8925 /* Info.plist */,
+				7CE581809C19825362BF5DA23A5A2C81 /* Pods-Jeu de Nim.modulemap */,
+				095B9DF0144C44AB476FE351F569F774 /* Pods-Jeu de Nim-acknowledgements.markdown */,
+				026EEA82174758A3607EBF598858D1CD /* Pods-Jeu de Nim-acknowledgements.plist */,
+				A0F73177079F20B8B09E9A3034CEC86D /* Pods-Jeu de Nim-dummy.m */,
+				BA91F5D4024547900AF1612777FBF326 /* Pods-Jeu de Nim-frameworks.sh */,
+				1D71DA3393AD9A75880DD281B87F1532 /* Pods-Jeu de Nim-resources.sh */,
+				85D05BD1BA1044C7B972FB2C7FBBF5D9 /* Pods-Jeu de Nim-umbrella.h */,
+				62417A702C113F1D135E53A3A0E75747 /* Pods-Jeu de Nim.debug.xcconfig */,
+				5A5398AD5750E6BC7F0C10B63BF971EE /* Pods-Jeu de Nim.release.xcconfig */,
+			);
+			name = "Pods-Jeu de Nim";
+			path = "Target Support Files/Pods-Jeu de Nim";
+			sourceTree = "<group>";
+		};
+		6B51A01AC6D09B12A02594B668219311 /* Pods-Jeu de NimTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6B73E9313DA433D7168DFDAB91E1717 /* Info.plist */,
+				A08561B7CFB8327141D2B9C115EC5B76 /* Pods-Jeu de NimTests.modulemap */,
+				A861DF18D654A2418216ED8AB84AB618 /* Pods-Jeu de NimTests-acknowledgements.markdown */,
+				C57BF11E5AE48712C0DACE6F0BDEC4B2 /* Pods-Jeu de NimTests-acknowledgements.plist */,
+				32447B48551BCC6C7635EB27462A99B0 /* Pods-Jeu de NimTests-dummy.m */,
+				F03207542C482A9D5212A390F375F434 /* Pods-Jeu de NimTests-frameworks.sh */,
+				E16EECC5C4F8B6DD6226316E3347028F /* Pods-Jeu de NimTests-resources.sh */,
+				40350C6256FC6D9E6DD4CBB2EBC899E1 /* Pods-Jeu de NimTests-umbrella.h */,
+				F3829A39C49A1F6A905320AD2A810772 /* Pods-Jeu de NimTests.debug.xcconfig */,
+				898D68C9658C92E54C758CA122061343 /* Pods-Jeu de NimTests.release.xcconfig */,
+			);
+			name = "Pods-Jeu de NimTests";
+			path = "Target Support Files/Pods-Jeu de NimTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				FD32BA1F3C4F0FF446814007592391D6 /* Products */,
+				A085529110115EA9C562B1D8F636B5C2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A085529110115EA9C562B1D8F636B5C2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A82AADF7458965ED8397E5377B9D2A8 /* Pods-Jeu de Nim */,
+				6B51A01AC6D09B12A02594B668219311 /* Pods-Jeu de NimTests */,
+				E315FAD4154273B18E1322BF6F6F649B /* Pods-Jeu de NimUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E315FAD4154273B18E1322BF6F6F649B /* Pods-Jeu de NimUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5810B290A9252C462B21940068A65F3E /* Info.plist */,
+				B2634923E6BDF2CBC0E157C0A9BFE253 /* Pods-Jeu de NimUITests.modulemap */,
+				F7146F44E8915958285C4E088F39490C /* Pods-Jeu de NimUITests-acknowledgements.markdown */,
+				24DC5298CA9DF43E830E345358CBE492 /* Pods-Jeu de NimUITests-acknowledgements.plist */,
+				9A7FE27B8902868C307A8B3541ECE957 /* Pods-Jeu de NimUITests-dummy.m */,
+				CB18628155FB9873E8D7CC2434BA125A /* Pods-Jeu de NimUITests-frameworks.sh */,
+				B97D1FDA692C40BCCAAA77F7C6BA7A15 /* Pods-Jeu de NimUITests-resources.sh */,
+				C12AD02CD8A28E6E08063FE2385D1702 /* Pods-Jeu de NimUITests-umbrella.h */,
+				3A1841F7199D11BF5496B10616F94F43 /* Pods-Jeu de NimUITests.debug.xcconfig */,
+				660C830F176578E2940571645A01DF41 /* Pods-Jeu de NimUITests.release.xcconfig */,
+			);
+			name = "Pods-Jeu de NimUITests";
+			path = "Target Support Files/Pods-Jeu de NimUITests";
+			sourceTree = "<group>";
+		};
+		FD32BA1F3C4F0FF446814007592391D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				93A393C0A0D1FCB4140FC32994A13B0E /* Pods_Jeu_de_Nim.framework */,
+				3CC5D30353A7435C14E4BD8B74D0DC3D /* Pods_Jeu_de_NimTests.framework */,
+				2215B62A1EF901CB6D80D29CD5A8071B /* Pods_Jeu_de_NimUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		58C903DABD0A3D07CBCA48302970EC77 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				193331AE7332CFAB8CA823765F12B4B4 /* Pods-Jeu de NimUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C13DE5D8337DA2B96F193BB2D941BAC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54C706189674FDABB82F04FA398C8BCC /* Pods-Jeu de NimTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D943F7010C60CEF6700659E84CC0680 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7DA25E944E97CC0D017610A2C803FD6 /* Pods-Jeu de Nim-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D222B2CEA2209B385F14E4079942B4D /* Pods-Jeu de NimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40C535105BEFB02EDAEF38F46AB8FD7E /* Build configuration list for PBXNativeTarget "Pods-Jeu de NimUITests" */;
+			buildPhases = (
+				72331B583DA405F83A71905476960EAE /* Sources */,
+				30FFFA075BA0D1ACE3565ADF6548CE99 /* Frameworks */,
+				58C903DABD0A3D07CBCA48302970EC77 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Jeu de NimUITests";
+			productName = "Pods-Jeu de NimUITests";
+			productReference = 2215B62A1EF901CB6D80D29CD5A8071B /* Pods_Jeu_de_NimUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3ED118618F1E0DA1BAA5B214459488FE /* Pods-Jeu de NimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE4674F0C03C8A7069A2FEF217F9E227 /* Build configuration list for PBXNativeTarget "Pods-Jeu de NimTests" */;
+			buildPhases = (
+				8145DE643AD257224786B08F4E5E7D62 /* Sources */,
+				0ABDDC317945706335A38C15914405F8 /* Frameworks */,
+				7C13DE5D8337DA2B96F193BB2D941BAC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Jeu de NimTests";
+			productName = "Pods-Jeu de NimTests";
+			productReference = 3CC5D30353A7435C14E4BD8B74D0DC3D /* Pods_Jeu_de_NimTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A05F5CEFA9D557B56E0C5ED8CAA0E2E0 /* Pods-Jeu de Nim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B22A14CED85AFFFF4CA9E4F62541D69 /* Build configuration list for PBXNativeTarget "Pods-Jeu de Nim" */;
+			buildPhases = (
+				53F17CCE52348CF78E38B02EE06AC217 /* Sources */,
+				A76D3F3D4F424BEC66F6B3F5E24D51A3 /* Frameworks */,
+				7D943F7010C60CEF6700659E84CC0680 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Jeu de Nim";
+			productName = "Pods-Jeu de Nim";
+			productReference = 93A393C0A0D1FCB4140FC32994A13B0E /* Pods_Jeu_de_Nim.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FD32BA1F3C4F0FF446814007592391D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A05F5CEFA9D557B56E0C5ED8CAA0E2E0 /* Pods-Jeu de Nim */,
+				3ED118618F1E0DA1BAA5B214459488FE /* Pods-Jeu de NimTests */,
+				1D222B2CEA2209B385F14E4079942B4D /* Pods-Jeu de NimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F17CCE52348CF78E38B02EE06AC217 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52DB0EFC2AE70294CDB826B980C44338 /* Pods-Jeu de Nim-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72331B583DA405F83A71905476960EAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28170F1BC62B9968C08FD3A00DD8FF14 /* Pods-Jeu de NimUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8145DE643AD257224786B08F4E5E7D62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F33C21DA24C017220ADD5285AC70C407 /* Pods-Jeu de NimTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1574DFBE46C3A95056829BC718547A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2E6FBF2D961437BCA6B55D06D8010B5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A1841F7199D11BF5496B10616F94F43 /* Pods-Jeu de NimUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Jeu de NimUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jeu de NimUITests/Pods-Jeu de NimUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jeu_de_NimUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35A8F89D482F5759A86F614392C7C359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A5398AD5750E6BC7F0C10B63BF971EE /* Pods-Jeu de Nim.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Jeu de Nim/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jeu de Nim/Pods-Jeu de Nim.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jeu_de_Nim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5B5A1446720EEC8CE963B9BD750713E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7DB5670C17B2AC177E0F8D7E52A279AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 660C830F176578E2940571645A01DF41 /* Pods-Jeu de NimUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Jeu de NimUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jeu de NimUITests/Pods-Jeu de NimUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jeu_de_NimUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9AFC5A75485E463FE0047576B921ED0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 898D68C9658C92E54C758CA122061343 /* Pods-Jeu de NimTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Jeu de NimTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jeu de NimTests/Pods-Jeu de NimTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jeu_de_NimTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B73CF62A48897CD207125DFC68E40BB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62417A702C113F1D135E53A3A0E75747 /* Pods-Jeu de Nim.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Jeu de Nim/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jeu de Nim/Pods-Jeu de Nim.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jeu_de_Nim;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CFB4B8827A9D2B947BC075AD55E765B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3829A39C49A1F6A905320AD2A810772 /* Pods-Jeu de NimTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Jeu de NimTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jeu de NimTests/Pods-Jeu de NimTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Jeu_de_NimTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B22A14CED85AFFFF4CA9E4F62541D69 /* Build configuration list for PBXNativeTarget "Pods-Jeu de Nim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B73CF62A48897CD207125DFC68E40BB8 /* Debug */,
+				35A8F89D482F5759A86F614392C7C359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B5A1446720EEC8CE963B9BD750713E4 /* Debug */,
+				1574DFBE46C3A95056829BC718547A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40C535105BEFB02EDAEF38F46AB8FD7E /* Build configuration list for PBXNativeTarget "Pods-Jeu de NimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E6FBF2D961437BCA6B55D06D8010B5C /* Debug */,
+				7DB5670C17B2AC177E0F8D7E52A279AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE4674F0C03C8A7069A2FEF217F9E227 /* Build configuration list for PBXNativeTarget "Pods-Jeu de NimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB4B8827A9D2B947BC075AD55E765B8 /* Debug */,
+				A9AFC5A75485E463FE0047576B921ED0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
